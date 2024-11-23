@@ -16,9 +16,17 @@
     "moduleDetection": "force",
     "noEmit": true,
     /* Linting */
-    "strict": true
+    "strict": true,
+    /* Paths */
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
   },
   "include": [
-    "src"
+    "src",
+    "generateIndex.ts"
   ]
 }
